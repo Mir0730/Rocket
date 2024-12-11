@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #87CEEB;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+#launch-area {
+    position: relative;
+    height: 400px;
+    background-color: #228B22;
+    border: 2px solid black;
+    margin: 20px auto;
+    width: 300px;
+    overflow: hidden;
+}
+
+#rocket {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: auto;
+}
+
+#start-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#start-button:hover {
+    background-color: #FF6347;
+}
